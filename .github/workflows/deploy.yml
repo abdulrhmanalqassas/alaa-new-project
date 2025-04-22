@@ -4,6 +4,9 @@ on:
   push:
     branches: [ main ] # or master, depending on your default branch
 
+permissions:
+  contents: write # Add this line to grant write permissions
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -25,5 +28,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # The folder the action should deploy
-          branch: gh-pages # The branch the action should deploy to
+          folder: dist
+          token: ${{ secrets.GITHUB_TOKEN }} # Add this line
+          branch: gh-pages
