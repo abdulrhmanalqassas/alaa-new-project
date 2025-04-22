@@ -39,6 +39,7 @@ function App() {
             alt="logo"
             className=" hidden -z-2 absolute border-fuchsia-700 border-solid  border-4 border-opacity-50 rounded-full  h-1/12 top-3 left-2 "
           />
+          
           <img
             src={tC}
             alt="logo"
