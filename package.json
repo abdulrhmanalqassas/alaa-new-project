@@ -2,6 +2,7 @@
   "name": "alaa-new-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://abdulrhmanalqassas.github.io/alaa-new-project",
   "type": "module",
   "scripts": {
     "dev": "vite",
