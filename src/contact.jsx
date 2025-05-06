@@ -8,7 +8,7 @@ export default function Contact() {
   const [agreed, setAgreed] = useState(false);
 
   return (
-    <div className="isolate px-6 py-24 sm:py-32 lg:px-8 border-4 border-blue-900 rounded-lg">
+    <div className="isolate px-6 py-24 sm:py-32 lg:px-8 rounded-lg">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -26,7 +26,7 @@ export default function Contact() {
           Contact sales
         </h2>
         <p className="mt-2 text-lg/8 text-white">
-          Aute magna irure deserunt veniam aliqua magna enim voluptate.
+          best seals team in the world, we are here to help you with your needs.
         </p>
       </div>
       <form

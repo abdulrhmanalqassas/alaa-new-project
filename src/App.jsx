@@ -73,9 +73,7 @@ function App() {
          <Contact/>
         </div>
        
-        <div className="h-screen flex items-center justify-center">
-          <h1 className="text-white text-4xl">Sliding Content Section 2</h1>
-        </div>
+        
       </div>
     </div>
    </>

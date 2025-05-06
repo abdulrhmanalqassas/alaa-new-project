@@ -1,35 +1,34 @@
 import t1 from "./assets/t1.jpg";
-
+import t2 from "./assets/t2.jpg";
+import t3 from "./assets/t3.jpg";
+import t4 from "./assets/t4.jpg";
 const people = [
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Leslie Alexander",
+    name: "A'laa ELksass",
     role: "Co-Founder / CEO",
     imageUrl: t1,
   },
   {
-    name: "Leslie Alexander",
+    name: "Rozane Ebrahim",
     role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    imageUrl: t3,
   },
   {
-    name: "Leslie Alexander",
+    name: "Shahnda Hassan ",
     role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    imageUrl: t2,
+  },
+  {
+    name: "Nadia Elsaied",
+    role: "Co-Founder / CEO",
+    imageUrl: t4,
   },
   // More people...
 ];
 
 export default function Team() {
   return (
-    <div className=" py-24 sm:py-32 border-4 border-blue-900 rounded-lg">
+    <div className=" py-24 sm:py-32  rounded-lg">
       <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-xl">
           <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
