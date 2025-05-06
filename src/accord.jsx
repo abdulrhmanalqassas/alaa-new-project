@@ -68,35 +68,35 @@ export default function Accordion() {
                 <h3 className="text-lg font-medium text-White">
                   Starlight Mojito
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">60</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">
                   Galaxy Smoothie
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">65</h3>
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between  items-center">
                 <h3 className="text-lg font-medium text-White">
                   Milky Way Shake
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">70</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">
                   Zero Gravity Coffee
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">100</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">
                   Cosmic Blue Lemonade
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">110</h3>
               </div>
             </div>
@@ -120,29 +120,29 @@ export default function Accordion() {
                 <h3 className="text-lg font-medium text-White">
                   Galactic Burger
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">160</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">Nebula Steak</h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">120</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">Meteor Fries</h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">140</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">Cosmic Pasta</h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">130</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">
                   Supernova Chicken
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">120</h3>
               </div>
             </div>
@@ -166,35 +166,35 @@ export default function Accordion() {
                 <h3 className="text-lg font-medium text-White">
                   stardust Donuts
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">50</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">
                   Nebula Ice Cream
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">30</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">
                   Planetary CheeseCake
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">60</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">
                   Moon Rock Brownies
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">65</h3>
               </div>
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-medium text-White">
                   Black Hole Lava Cake
                 </h3>{" "}
-                ********
+                 
                 <h3 className="text-lg font-medium text-White">80</h3>
               </div>
             </div>
