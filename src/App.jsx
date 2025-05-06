@@ -8,6 +8,7 @@ import Nav from "./nav";
 import Team from "./team";
 import Contact from "./contact";
 import Flay from "./flay";
+import Accordion from "./accord";
 
 function App() {
   return (
@@ -62,25 +63,8 @@ function App() {
             ⬇️
           </div>
         </div>
-        <div className=" flex items-center justify-center flex-col">
-          <Flay/>
-          <Flay/>
-          <Flay/>
-          {/* <h1 className="text-white text-4xl">Sliding Content Section 1</h1> */}
-          {/* <img src={menu} alt="logo" className="w-full max-h-10/12 " /> */}
-
-          {/* <div className="flex flex-row items-center justify-center">
-          <img src={menu} alt="logo" className="w-1/2 h-1/2" />
-            <div className="flex flex-col items-center justify-center">
-             <img src={menu} alt="logo" className="w-1/2 h-1/2" />
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              TITILE 1
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              TITILE 1
-            </div>
-          </div> */}
+        <div className="h-screen flex items-center justify-center">
+         <Accordion/>
         </div>
         <div className="h-screen flex items-center justify-center">
         <Team/>
@@ -88,9 +72,7 @@ function App() {
         <div className="">
          <Contact/>
         </div>
-        <div className="h-screen flex items-center justify-center">
-          <h1 className="text-white text-4xl">Sliding Content Section 1</h1>
-        </div>
+       
         <div className="h-screen flex items-center justify-center">
           <h1 className="text-white text-4xl">Sliding Content Section 2</h1>
         </div>
